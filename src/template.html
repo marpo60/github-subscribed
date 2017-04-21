@@ -1,0 +1,28 @@
+<template id="repo">
+  <div class="notifications-list">
+    <div class="boxed-group flush js-notifications-browser">
+      <h3>
+        <a href="#" class="css-truncate css-truncate-target notifications-repo-link">$repo</a>
+      </h3>
+      <ul class="boxed-group-inner list-group notifications">
+        <!-- row template -->
+      </ul>
+    </div>
+  </div>
+</template>
+
+<style>
+  .notifications .list-group-item-name.long {
+    max-width: none;
+  }
+</style>
+
+<template id="row">
+  <li class="list-group-item js-notification js-navigation-item unread issue-notification">
+    <span class="list-group-item-name long css-truncate">
+      <a class="css-truncate-target js-notification-target js-navigation-open list-group-item-link" href="$url">
+        $name
+      </a>
+    </span>
+  </li>
+</template>
