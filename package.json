@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}

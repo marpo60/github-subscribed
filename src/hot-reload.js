@@ -1,3 +1,4 @@
+/* eslint-disable */
 // https://github.com/xpl/crx-hotreload
 
 const filesInDirectory = dir => new Promise (resolve =>

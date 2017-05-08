@@ -40,7 +40,7 @@ window.listSubscribed = (() => {
     chrome.storage.local.get(null, function(items) {
       items = Object.values(items);
 
-      items.forEach(function(item, index) {
+      items.forEach(function(item) {
         addRepoBox(item);
         addItem(item);
       });
@@ -139,10 +139,10 @@ window.overloadSubscribeButton = (() =>{
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
-  listSubscribed.setup();
-  overloadSubscribeButton.setup();
+  window.listSubscribed.setup();
+  window.overloadSubscribeButton.setup();
 });
 
 document.addEventListener('pjax:success', () => {
-  listSubscribed.setup();
+  window.listSubscribed.setup();
 });
