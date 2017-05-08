@@ -111,8 +111,11 @@ window.overloadSubscribeButton = (() =>{
     var form = document.querySelector(".thread-subscribe-form");
     if (form) {
       attachEventToForm();
-      new MutationObserver(() => attachEventToForm()).
-        observe(document.querySelector('.sidebar-notifications'), {childList: true});
+      var sidebar = document.querySelector('.sidebar-notifications');
+      if (sidebar) {
+        new MutationObserver(() => attachEventToForm()).
+          observe(document.querySelector('.sidebar-notifications'), {childList: true});
+      }
     }
   }
 
