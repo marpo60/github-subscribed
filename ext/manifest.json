@@ -13,7 +13,6 @@
     "storage",
     "https://github.com/*"
   ],
-  "web_accessible_resources": ["src/template.html"],
   "background": { "scripts": ["src/hot-reload.js"] },
   "content_scripts": [
     {
