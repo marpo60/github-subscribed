@@ -2,6 +2,8 @@
 
 Chrome extension that keeps track of your subscription and show them on github.
 
+![showcase](showcase.png)
+
 ## Features
 * Works out of the box
 
