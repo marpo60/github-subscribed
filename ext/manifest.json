@@ -1,6 +1,6 @@
 {
   "name": "Github subscribed",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "manifest_version": 2,
   "description": "Keep track of your subscription and show them on github",
   "homepage_url": "https://github.com/marpo60/github-subscribed",
