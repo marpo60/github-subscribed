@@ -40,7 +40,12 @@ window.listSubscribed = (() => {
   }
 
   function moveToSubscribedTab(e) {
-    document.querySelector(".filter-list .selected").classList.remove("selected");
+    var selectedOption = document.querySelector(".filter-list .selected");
+
+    if (selectedOption) {
+      selectedOption.classList.remove("selected");
+    }
+
     e.target.classList.add("selected");
   }
 
