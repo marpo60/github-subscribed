@@ -231,4 +231,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('pjax:success', () => {
   window.listSubscribed.setup();
+  window.addToListIfSubscribed.setup();
+  window.overloadSubscribeButton.setup();
 });
