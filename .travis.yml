@@ -5,7 +5,7 @@ env:
   - EXTENSION_ID=ckngaeoaloonkgjmgdffjjkifmegkcbb
 deploy:
   provider: script
-  script: yarn run release
+  script: yarn && yarn run release
   on:
     branch: master
     tags: true
