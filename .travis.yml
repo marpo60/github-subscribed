@@ -1,8 +1,11 @@
+addons:
+  chrome: stable
 language: node_js
 node_js:
   - 'node'
 env:
   - EXTENSION_ID=ckngaeoaloonkgjmgdffjjkifmegkcbb
+script: yarn run cypress run --browser chrome
 deploy:
   provider: script
   script: yarn && yarn run release

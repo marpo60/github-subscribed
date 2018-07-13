@@ -234,3 +234,7 @@ document.addEventListener('pjax:success', () => {
   window.addToListIfSubscribed.setup();
   window.overloadSubscribeButton.setup();
 });
+
+document.addEventListener('clearAll', () => {
+  chrome.storage.local.clear()
+});
