@@ -18,7 +18,8 @@ They are not... for now.
 
 ## Install
 
-[Chrome extension](https://chrome.google.com/webstore/detail/github-subscribed/ckngaeoaloonkgjmgdffjjkifmegkcbb)
+* [Chrome extension](https://chrome.google.com/webstore/detail/github-subscribed/ckngaeoaloonkgjmgdffjjkifmegkcbb)
+* [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/github-subscribed/)
 
 ## License
 
