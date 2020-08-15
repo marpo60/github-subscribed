@@ -1,3 +1,11 @@
+# DEPRECATED
+
+Github implemented this on their own site, which is great!
+
+This extension is not longer needed.
+
+https://github.blog/changelog/2019-03-11-subscription-list/
+
 # Github subscribed
 
 Chrome extension that keeps track of your subscription and show them on github.
